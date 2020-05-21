@@ -18,12 +18,12 @@ export class ApiService {
     
 
     getEpisodes() {
-        return this.http.get('https://git.heroku.com/thawing-scrubland-51952.git/api/episodes');
+        return this.http.get('https://thawing-scrubland-51952/api/episodes');
 
     }
 
     getEpisode(id) {
-        return this.http.get(`https://git.heroku.com/thawing-scrubland-51952.git/api/episodes/${id}`);
+        return this.http.get(`https://thawing-scrubland-51952/api/episodes/${id}`);
     }
 
     getCharacters() {
